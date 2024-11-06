@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://veetijoensuu.github.io/static/css/main.984dad85.css",
+    "main.js": "https://veetijoensuu.github.io/static/js/main.901dfc52.js",
+    "index.html": "https://veetijoensuu.github.io/index.html",
+    "main.984dad85.css.map": "https://veetijoensuu.github.io/static/css/main.984dad85.css.map",
+    "main.901dfc52.js.map": "https://veetijoensuu.github.io/static/js/main.901dfc52.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.984dad85.css",
+    "static/js/main.901dfc52.js"
+  ]
+}
