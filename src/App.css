@@ -1,0 +1,79 @@
+/* Global styles */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #61dafb;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-tile {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #e6e6e6;
+}
+
+.project-screenshot {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-title {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.github-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.tag-checkbox {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.about-me {
+  color: #ffffff;
+}
+
+.about-me a {
+  color: var(--link-color, #61dafb);
+}
